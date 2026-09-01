@@ -5,20 +5,14 @@ float celsiusParaFahrenheit(float c) {
 }
 
 int main() {
-    float temperatura1 = 150.0;
-    float temperatura2 = 850.5;
-    float temperatura3 = 1200.0;
+    float temperaturaCelsius;
 
-    printf("--- Painel Digital de Seguranca ---\n");
+    printf("Digite a temperatura em graus Celsius: ");
     
-    printf("Leitura 1: %.2f graus Celsius = %.2f graus Fahrenheit\n", 
-           temperatura1, celsiusParaFahrenheit(temperatura1));
-           
-    printf("Leitura 2: %.2f graus Celsius = %.2f graus Fahrenheit\n", 
-           temperatura2, celsiusParaFahrenheit(temperatura2));
-           
-    printf("Leitura 3: %.2f graus Celsius = %.2f graus Fahrenheit\n", 
-           temperatura3, celsiusParaFahrenheit(temperatura3));
+    scanf("%f", &temperaturaCelsius);
+
+    printf("%.2f graus Celsius equivalem a %.2f graus Fahrenheit.\n", 
+           temperaturaCelsius, celsiusParaFahrenheit(temperaturaCelsius));
 
     return 0;
 }
