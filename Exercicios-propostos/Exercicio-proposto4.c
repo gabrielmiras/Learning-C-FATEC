@@ -25,8 +25,7 @@ int main() {
     scanf("%f", &valorCompra);
     
     calcularpedido(&totalPagar, &frete, valorCompra);
-
-    printf("\n--- Resumo do Checkout ---\n");
+    
     printf("Custo do frete: R$ %.2f\n", frete);
     printf("Valor final a pagar: R$ %.2f\n", totalPagar);
 
