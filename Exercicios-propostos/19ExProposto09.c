@@ -1,3 +1,8 @@
+/*Exercício Proposto09: Diagonal Principal (Matrizes e Funções) 
+Crie uma função que receba como parâmetro uma matriz quadrada de ordem 4 x 4 de números reais. A 
+função deve calcular e retornar a soma de todos os elementos que pertencem à diagonal principal da 
+matriz. */
+
 #include <stdio.h>
 
 float somaDiagonalPrincipal(float matriz[4][4]) {

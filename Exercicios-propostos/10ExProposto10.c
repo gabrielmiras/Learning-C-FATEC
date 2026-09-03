@@ -1,3 +1,8 @@
+/*Exercício Proposto10: Matriz Transposta (Matrizes e Funções) 
+Desenvolva um programa que leia uma matriz A de tamanho 3 x 2. Implemente uma função que receba a 
+matriz A e gere uma segunda matriz B, que representará a matriz transposta de A (tamanho 2 x 3). Imprima 
+as duas matrizes de forma organizada na função main.*/
+
 #include <stdio.h>
 
 void gerarTransposta(int matrizA[3][2], int matrizB[2][3]) {

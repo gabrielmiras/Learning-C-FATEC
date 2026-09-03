@@ -1,3 +1,10 @@
+/*Exercício Proposto01: Conversor de Câmbio Viagem (Finanças) 
+Você está desenvolvendo um aplicativo de finanças para viajantes. Escreva uma função chamada 
+converterDolarParaReal que receba como parâmetros o valor em dólares (USD) guardado pelo usuário e 
+a cotação atual do dia. A função deve retornar o valor equivalente em Reais (BRL). No main, peça os dados 
+ao usuário, chame a função e exiba o resultado. 
+ */
+
 #include <stdio.h>
 #include <stdlib.h>
 #include <windows.h>

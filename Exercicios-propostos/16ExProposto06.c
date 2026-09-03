@@ -1,3 +1,7 @@
+/*Exercício Proposto06: Procura por Elemento (Vetores e Funções) 
+Implemente uma função que receba um vetor de 10 inteiros e um número inteiro X. A função deve procurar 
+o valor X no vetor. Se encontrar, retorna a posição (índice) da primeira ocorrência. Se não encontrar, retorna -1. No main, teste a função com dados fornecidos pelo usuário. */
+
 #include <stdio.h>
 #include <stdlib.h>
 

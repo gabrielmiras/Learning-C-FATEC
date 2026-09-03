@@ -1,3 +1,8 @@
+/*Exercício Proposto07: Inversão de Ordem (Vetores e Funções) 
+Crie uma função que receba um vetor de 6 números inteiros e modifique-o diretamente, invertendo a ordem 
+de todos os seus elementos (o primeiro passa a ser o último, o segundo passa a ser o penúltimo, e assim 
+por diante). Exiba o vetor original e o vetor modificado na função principal.*/
+
 #include <stdio.h>
 
 void inverterVetor(int vetor[], int tamanho) {

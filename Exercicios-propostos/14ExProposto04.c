@@ -1,3 +1,9 @@
+/*Exercício Proposto04: Checkout de E-commerce (Logística e Vendas) 
+Uma loja online aplica 10% de desconto se o valor da compra for maior que R$ 200,00. Além disso, o frete 
+é fixo em R$ 15,00, mas torna-se grátis se o valor final da compra (já com o desconto aplicado) for superior 
+a R$ 250,00. Escreva uma função chamada calcularTotalPedido que receba o valor bruto das mercadorias 
+e preencha, usando ponteiros (passagem por referência), o valor final a ser pago e o custo final do frete. */
+
 #include <stdio.h>
 #include <stdlib.h>
 

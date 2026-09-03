@@ -1,3 +1,9 @@
+/*Exercício Proposto08: Maior Elemento e Posição (Matrizes e Funções) 
+Escreva um programa que leia uma matriz de inteiros com dimensão 3 x 3. Crie uma função que receba 
+essa matriz como parâmetro, encontre o maior valor contido nela e devolva para o main o valor encontrado 
+bem como a linha e a coluna onde ele se localiza.*/
+
+
 #include <stdio.h>
 
 void encontrarMaiorElemento(int matriz[3][3], int *maior, int *linha, int *coluna) {

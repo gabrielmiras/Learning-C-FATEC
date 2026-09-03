@@ -1,3 +1,8 @@
+/*Exercício Proposto05: Média de Notas (Vetores e Funções) 
+Escreva um programa em C que possua uma função para ler as notas de 5 alunos e armazená-las em um 
+vetor. Crie uma segunda função que receba esse vetor como parâmetro e retorne a média das notas da 
+turma. O programa principal (main) deve gerenciar as chamadas e exibir o resultado final.*/
+
 #include <stdio.h>
 #include <stdlib.h>
 
