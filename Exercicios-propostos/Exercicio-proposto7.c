@@ -2,25 +2,22 @@
 
 void inverterVetor(int vetor[], int tamanho) {
     int temp;
+    int i;
 
-    for (int i = 0; i < tamanho / 2; i++) {
-
+    for (i = 0; i < tamanho / 2; i++) {
         temp = vetor[i];
-
         vetor[i] = vetor[tamanho - 1 - i];
-
         vetor[tamanho - 1 - i] = temp;
     }
 }
 
 int main() {
-
     int meuVetor[6] = {10, 20, 30, 40, 50, 60};
     int tamanho = 6;
-
+    int i; 
 
     printf("Vetor original: ");
-    for (int i = 0; i < tamanho; i++) {
+    for (i = 0; i < tamanho; i++) {
         printf("%d ", meuVetor[i]);
     }
     printf("\n");
@@ -28,7 +25,7 @@ int main() {
     inverterVetor(meuVetor, tamanho);
     
     printf("Vetor modificado: ");
-    for (int i = 0; i < tamanho; i++) {
+    for (i = 0; i < tamanho; i++) {
         printf("%d ", meuVetor[i]);
     }
     printf("\n");
